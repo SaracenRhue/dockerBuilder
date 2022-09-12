@@ -1,5 +1,7 @@
 # dockerBuild
 
+go to the directory where the Dockerfile is located and run the following command:
+
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/dokerBuild/main/start.sh)"
 ```
