@@ -1,4 +1,4 @@
-# dockerBuild
+# dockerBuilder
 
 go to the directory where the Dockerfile is located and run the following command:
 
