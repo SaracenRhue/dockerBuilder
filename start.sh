@@ -1,6 +1,11 @@
 #!/bin/bash
 
-sudo systemctl start docker
+# check if docker is running
+if ! docker info > /dev/null 2>&1; then
+    echo "Docker is not running"
+    echo "starting docker"
+    sudo systemctl start docker
+fi
 
 echo "enter your docker username"
 read username
